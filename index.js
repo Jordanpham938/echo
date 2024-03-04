@@ -15,7 +15,9 @@ console.log("n=" + n);
  * be 'Hello!\nHello!\nHello!\n'
  */
 let result = '';
-
+for (let i = 0; i < n; i++) {
+  result += str + '\n';
+}
 // DO NOT CHANGE THE LINES BELOW.
 console.log(result);
 
